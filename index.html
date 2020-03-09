@@ -9,17 +9,17 @@
 <body>
 
     <!-- Navigation -->
-    <hr>
-        <a href="index.html" >Home</a> |    
-        <a href="contact.html">Contact</a> |
-        <a href="gallery.html">Gallery</a> |
-        
+    
+    <a href="index.html" rel="noopener noreferrer">Home</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="contact.html">Contact</a> |
+                      
     <hr>
 
     <table cellspacing="10">
         <tr>
             <td>    
-                <img src="./asset/image/index.jpeg" alt="Profile Picture">
+                <img src="./assets/image/index.jpeg" alt="Profile Picture" rounded-corners>
             </td>
             <td>
                 <!-- This is the first step. -->
@@ -53,19 +53,19 @@
     </ul>
 
     <hr>
-    <thead><strong>Work Experience</strong></thead>
+    <thead><strong> Work Experience</strong></thead>
     <table cellspacing="10">
         <tr>
             <th>Date</th>
             <th>Job</th>
         </tr>
         <tr>
-            <td>23/2/2000</td>
-            <td>Born</td>
+            <td>23/2/2017</td>
+            <td>Web Developmnt</td>
         </tr>
         <tr>
             <td>20/10/2020</td>
-            <td>Now</td>
+            <td>Mobile Programming</td>
         </tr>
     </table>
 
@@ -86,6 +86,7 @@
             <td>Python</td>
             <td>⭐⭐⭐⭐⭐  </td>
         </tr>
+
     </table>
     <hr>
 
@@ -93,100 +94,14 @@
     <hr>
     <!-- social media -->
     
-    <a href="http://www.facebook.com" target="_blank">FaceBook</a> |
-    <a href="http://www.telegram.com" target="_blank" rel="noopener noreferrer">Telegram</a>
+    <div align="right">
+        <a href="https://www.facebook.com"><img src="./assets/icons/facebook.svg" alt="facebook"></a>
+        <a href="https://www.telegram.com"><img src="./assets/icons/telegram.svg" alt="telegram"></a>
+        <a href="https://www.instagram.com"><img src="./assets/icons/instagram.svg" alt="instagram"></a>
+        <a href="https://www.github.com"><img src="./assets/icons/github.svg" alt="githun"></a>
+        <a href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+    </div>
     <hr>
-
-    <!-- contact form   method="POST" action="mailto:se.abenezer.atnafu@gmail.com"  -->
-    <h3 align="center">Leave Your Comment Here!</h3>
-    <form enctype="utf-8">
-        <table align="center">
-            <tr>
-                <td>
-                    <label for="fName">First Name</label>
-                </td>
-                <td>
-                    <input type="text" name="fName" id="fName" placeholder="First name" pattern="[a-zA-Z'-]{3,30}\S" autofocus required title="Please enter at least 3 characters without symbols and numbers">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="lName">Last Name</label>
-                </td>
-                <td>
-                    <input type="text" name="lName" id="lName" placeholder="Last Name" pattern="[a-zA-Z'-]{3,30}" size="20" autofocus required title="Please enter at least 3 characters without symbols and numbers">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="email">Email</label>
-                </td>
-                <td>
-                    <input type="text" name="email" id="email" placeholder="Email" pattern="[^@]+@[^\.]+\..+\S" autofocus required title="Please enter a valid email format containing @ and.">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="password">Password</label>
-                </td>
-                <td>
-                    <input type="password" name="password" id="password" placeholder="password"  pattern="^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}" autofocus required title = "Please enter atleast 8 characters --- atleast 1 numeric character --- atleast 1 character --- atleast 1 symbol">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="phone">Phone Number 📱 </label>
-                </td>
-                <td>
-                    <input type="text" name="tel1" pattern="[0-9]{9,15}" placeholder="Phone Number" autofocus required title = "Please enter a valid phone number">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="country">Country</label>
-                </td>
-                <td>
-                    <select name="country" id="">
-                        <option value="eth">Ethiopia 🇪🇹 </option>
-                        <option value="gha">Ghana 🇬🇭 </option>
-                        <option value="ken">kenya 🇰🇪 </option>
-                        <option value="gab">Gabon 🇬🇦 </option>
-                    </select>
-            </td>
-            </tr>
-            <tr>
-                <td>Gender 
-
-                
-                    <td><label for="Male">Male</label>
-                        <input type="radio" name="gender" id="male">
-                    <label for="female">Female</label>
-                        <input type="radio" name="gender" id="female"></td>
-                </td>
-            </tr>
-            <tr>
-                <td >
-                    <label for="detail">What do u say?</label>
-                
-                <br>
-                    <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Say something here..."></textarea>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <label for="rate">How much do you like my page. </label>
-                </td>
-                <td>
-                    <input type="range" id="rate" name="rate" min="0" max="100">
-                </td>
-            </tr>
-            
-        </table>
-        <input type="submit" value="submit">
-        
-    </form>
-
     <hr>
     <p align="Center">Developed by Abenezer A. &copy;</p>
     <hr>
