@@ -4,151 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abenezer Atnafu</title>
-    <link rel="icon" href="favcon.ico" type="image/x-icon/">
+    <link rel="shortcut icon" href="./assets/icons/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+
 </head>
 <body>
-
-    <!-- Navigation -->
     
-    <a href="index.html" rel="noopener noreferrer">Home</a> |
-    <a href="gallery.html">Gallery</a> |
-    <a href="contact.html">Contact</a> |
-    <hr>
+    <header>
+        <a href="index.html">Abenezer Atnafu</a>
+        <nav>
 
-    <table cellspacing="10">
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact/About Me</a>
+                </li>
+                <li></li>
+                <li></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <img src="./assets/images/aboutMe.png" alt="about me">
+    <div id="body">
+        <div>
+            <p>
+                <strong>Hello!</strong> <br>
+                I’m Abenezer Atnafu. I’m a Software engineering student. I was born on Jan 3, 2000 in Addis Ababa, Ethiopia.
+                When I turn to 4, I went to a nearby school and started my education life. After 15 sophisticated, funny, 
+                hard school years, now I have joined Addis Ababa Institute of Technology. I have started a new era of life. 
+            </p>
+        </div>
+
         <tr>
-            <td>    
-                <img src="./assets/image/index.jpeg" alt="Profile Picture">
+            <td align="center">
+                <img src="./assets/images/family 1.jpg" alt="my family" width="50%" height="50%">
             </td>
-            <td>
-                <!-- This is the first step. -->
-                <h1>Abenezer Atnafu</h1>
-                <h3>Student, Addis Ababa Institute of Technology</h3>
-                <p>I am Abenezer Atnafu , I am expert <strong>Java</strong> Developer who has been working on Java since <em>5 </em></em5>years. I am passionate about working in diffrent types of porgaming langiage </p>
+        </tr>
 
+        <tr>
+            <td>
+                <p >
+                    Beside my class I tried to do more on the linkage bond between the students and the teachers and also the 
+                    school principals. With this aim an organized and beneficiary club which is started by me, is tried in the school.
+                     Because of the acceptance of the idea with the school administration it started with a full task on 2017. 
+                     Mission Scholars the name of the club, helps the students a lot in getting information, having a connection and 
+                     preparation for any examinatison either it is international or national. Now, it is running through other representatives.
+                    Now, by passing the National university entrance examination, I am a student of Addis Ababa Institute of Technology.
+                     I am studying Software Engineering as a major. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="./assets/images/abene2.jpg" alt="my family" width="50%" height="50%">
+            </td>
+        </tr>
+    </div>
+    
+    <br><hr align="center" width="70%"><br>
+
+    <table cellspacing="10" align="center">
+        <caption><h4 align="left">Experience :</h4></caption>
+        <tr>
+            <td rowspan="2" align="center"><img src="./assets/icons/dot.svg" height="15px" width="15px"></td>
+            <td><strong>Volunteer </strong></td>
+        </tr>
+        <tr>
+            <td>Selam Preparatory School <br> October 2019 – Jaunary 2020 Addis Ababa, Ethiopia 🇪🇹</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="./assets/icons/black-line.jpg" alt="dooted-line" width="50px" height="100px"></td>
+            <td><strong> Internship: Web Developer</strong></td>
+        </tr>
+        <tr>
+            <td>Ahoon- Studies <br> September 2019 – October 2019 Addis Ababa, Ethiopia 🇪🇹 </td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center"><img src="./assets/icons/circle.svg" height="15px" width="15px"></td>
+            <td><strong>Leader in School Clubs</strong></td>
+        </tr>
+        <tr>
+            <td>Akaki -Adventist School <br> September 2017 – October 2018 Addis Ababa, Ethiopia 🇪🇹</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="./assets/icons/black-line.jpg" alt="dooted-line" width="50px" height="100px"></td>
+            <td><strong> Playing Football for Club</strong></td>
+        </tr>
+        <tr>
+            <td>Football Stars <br> September 2017 – October 2018 </td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="center"><img src="./assets/icons/circle.svg" height="15px" width="15px"></td>
+            <td><strong>React and Flutter Workshop</strong></td>
+        </tr>
+        <tr>
+            <td>Addis Ababa Institute of Technology <br> Jaunary 2019 </td>
+        </tr>
+        
+    </table>
+
+
+    <br><hr align="center" width="70%"><br><br>
+    
+    <table align="center" >
+        <tr >
+            <td colspan="3">  
+                <img src="./assets/images/getInTouch.png" alt="" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td><h3 align="center">Leave Your Comment Here!</h3>
+                <form enctype="utf-8">
+                    <table align="center">
+                        <tr>
+                            <td>
+                                <label for="fName">First Name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="fName" id="fName" placeholder="First name" pattern="[a-zA-Z'-]{3,30}\S" autofocus required title="Please enter at least 3 characters without symbols and numbers">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lName">Last Name</label>
+                            </td>
+                            <td>
+                                <input type="text" name="lName" id="lName" placeholder="Last Name" pattern="[a-zA-Z'-]{3,30}" size="20" autofocus required title="Please enter at least 3 characters without symbols and numbers">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                <input type="text" name="email" id="email" placeholder="Email" pattern="[^@]+@[^\.]+\..+\S" autofocus required title="Please enter a valid email format containing @ and.">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td >
+                                <label for="detail">What do u say?</label>
+                            
+                            <br>
+                                <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Say something here..."></textarea>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <label for="rate">How much do you like my page. </label>
+                            </td>
+                            <td>
+                                <input type="range" id="rate" name="rate" min="0" max="100">
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="submit" value="send"></td>
+                            <td><input type="reset" value="Reset"></td>
+                        </tr>
+                        
+                    </table>
+                </form></td>
+        </tr>
+
+    </table>
+   
+    <table align="center">
+        <tr>
+            <td><a href="https://www.facebook.com"><img src="./assets/icons/facebook.svg" alt="facebook"> Chat on</a><br>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.telegram.com"><img src="./assets/icons/telegram.svg" alt="telegram"> Chat on</a><br></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.github.com"><img src="./assets/icons/github.svg" alt="githun">See my projects</a><br>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg" alt="linkedin">See my profile</a><br>
             </td>
         </tr>
     </table>
-    
-    <hr>
-    <h5>I am around here:</h5>
-    <div class="mapouter" align="center">
-        <div class="gmap_canvas">
-        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20ababa%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-        <a href="https://www.divi-discounts.com"></a>
-        </div>
-        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
-    </div>
-    <!-- social media -->
-    
-    <hr>
+    <br><br><br>
 
-     <!-- contact form   method="POST" action="mailto:se.abenezer.atnafu@gmail.com"  -->
-     <h3 align="center">Leave Your Comment Here!</h3>
-     <form enctype="utf-8">
-         <table align="center">
-             <tr>
-                 <td>
-                     <label for="fName">First Name</label>
-                 </td>
-                 <td>
-                     <input type="text" name="fName" id="fName" placeholder="First name" pattern="[a-zA-Z'-]{3,30}\S" autofocus required title="Please enter at least 3 characters without symbols and numbers">
-                 </td>
-             </tr>
-             <tr>
-                 <td>
-                     <label for="lName">Last Name</label>
-                 </td>
-                 <td>
-                     <input type="text" name="lName" id="lName" placeholder="Last Name" pattern="[a-zA-Z'-]{3,30}" size="20" autofocus required title="Please enter at least 3 characters without symbols and numbers">
-                 </td>
-             </tr>
-             <tr>
-                 <td>
-                     <label for="email">Email</label>
-                 </td>
-                 <td>
-                     <input type="text" name="email" id="email" placeholder="Email" pattern="[^@]+@[^\.]+\..+\S" autofocus required title="Please enter a valid email format containing @ and.">
-                 </td>
-             </tr>
-             <tr>
-                 <td>
-                     <label for="password">Password</label>
-                 </td>
-                 <td>
-                     <input type="password" name="password" id="password" placeholder="password"  pattern="^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}" autofocus required title = "Please enter atleast 8 characters --- atleast 1 numeric character --- atleast 1 character --- atleast 1 symbol">
-                 </td>
-             </tr>
-             <tr>
-                 <td>
-                     <label for="phone">Phone Number 📱 </label>
-                 </td>
-                 <td>
-                     <input type="text" name="tel1" pattern="[0-9]{9,15}" placeholder="Phone Number" autofocus required title = "Please enter a valid phone number">
-                 </td>
-             </tr>
-             <tr>
-                 <td>
-                     <label for="country">Country</label>
-                 </td>
-                 <td>
-                     <select name="country" id="">
-                         <option value="eth">Ethiopia 🇪🇹 </option>
-                         <option value="gha">Ghana 🇬🇭 </option>
-                         <option value="ken">kenya 🇰🇪 </option>
-                         <option value="gab">Gabon 🇬🇦 </option>
-                     </select>
-             </td>
-             </tr>
-             <tr>
-                 <td>Gender 
- 
-                 
-                     <td><label for="Male">Male</label>
-                         <input type="radio" name="gender" id="male">
-                     <label for="female">Female</label>
-                         <input type="radio" name="gender" id="female"></td>
-                 </td>
-             </tr>
-             <tr>
-                 <td >
-                     <label for="detail">What do u say?</label>
-                 
-                 <br>
-                     <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Say something here..."></textarea>
-                 </td>
-             </tr>
- 
-             <tr>
-                 <td>
-                     <label for="rate">How much do you like my page. </label>
-                 </td>
-                 <td>
-                     <input type="range" id="rate" name="rate" min="0" max="100">
-                 </td>
-             </tr>
- 
-             <tr>
-                 <td colspan="2"><input type="submit" value="submit"></td>
-             </tr>
-             
-         </table>
-         
-         
-     </form>
-     <hr>
-     <hr>
-     <div align="right">
-     <a href="https://www.facebook.com"><img src="./assets/icons/facebook.svg" alt="facebook"></a>
-     <a href="https://www.telegram.com"><img src="./assets/icons/telegram.svg" alt="telegram"></a>
-     <a href="https://www.instagram.com"><img src="./assets/icons/instagram.svg" alt="instagram"></a>
-     <a href="https://www.github.com"><img src="./assets/icons/github.svg" alt="githun"></a>
-     <a href="https://www.linkedin.com"><img src="./assets/icons/linkedin.svg" alt="linkedin"></a>
-    </div>
-     <hr>
-    <hr>
-    <p align="Center">Developed by Abenezer A. &copy;</p>
-    <hr>
-
+    <footer>
+        <hr align="center" width="70%">
+        <p align="center">LICENSE: CC-BY-SA </p>
+        <img src="./assets/images/white.jpeg" alt="white" width="540px" height="10px">
+        Developed by Abenezer A. &copy; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="./assets/images/white.jpeg" alt="white" width="250px" height="10px">  
+        <a href="#" >Go back to top <img src="./assets/icons/up-arrow.svg" width="20px" height="20px" alt="back to home" ></a>
+    </footer>
 </body>
 </html>
