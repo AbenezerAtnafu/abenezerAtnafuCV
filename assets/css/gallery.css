@@ -4,7 +4,6 @@
 }
 
 body{
-    display: grid;
     background: linear-gradient(to bottom right, rgb(175, 171, 171), black)
 }
 .container h3{
@@ -39,7 +38,6 @@ body{
     box-sizing: border-box;
     
 }
-
 
 .container .image_container figure .image  img{
     width: 100%;

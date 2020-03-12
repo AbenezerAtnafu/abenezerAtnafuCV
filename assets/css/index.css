@@ -4,7 +4,12 @@
     list-style-type: none;
     font-family: monospace ,Arial, Helvetica, sans-serif;
     text-decoration: none;
+
 }
+body{
+    background: linear-gradient(to top left, rgb(175, 171, 171), rgb(43, 40, 40))
+}
+/* nav bar */
 
 nav{
     background-color: rgb(53, 50, 50);
@@ -37,14 +42,118 @@ nav ul li a{
     border-radius: 5%;
     padding: 1em;
 }
-nav ul li:active{
-    background: white;
-    color: black;
-}
-
-
-nav ul li:hover{
+nav ul li:hover {
     background-color: gray;
     border-radius: 1em;
     transition: .6s;
 }
+nav ul li a:active {
+    background-color: white;
+    color: black;
+    text-decoration: wavy;
+}
+
+/* body */
+#intro h3{
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 2em;
+    border-left: 5px solid gray;
+    padding-left: 1em;
+    color: white;
+}
+#intro h4{
+    border-bottom: 5px solid gray;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    border-left: 5px solid gray;
+    margin-bottom: .5em;
+    color: wheat;
+}
+
+#intro{
+    margin-bottom: 1.5em;
+    color: whitesmoke;
+}
+
+#body{
+    clear: both;
+    padding: 3em;
+}
+.info_container{
+    border-left: 2px solid black;
+    padding: .5em .5em;
+    border-radius: 5% 14%;
+}
+
+.flex_box .info_container{
+    float: left;
+    margin: 2em ;
+}
+
+.title{
+    border-left: 5px dotted gray;
+    border-bottom: 5px dotted gray;
+    margin-bottom: .5em;
+    padding-left: .3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: wheat;
+}
+dt{
+    
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+dd{
+    color: rgb(214, 212, 212);
+    padding-left: 3.5em;
+}
+#top_skill{
+    margin-left: 15em;
+}
+
+
+/* footer */
+footer{
+    clear: both;
+    position: relative;
+    background:linear-gradient(to top left  , rgb(41, 38, 38), rgb(139, 139, 139));
+    height: 50px;
+    margin-top: 2em;
+    padding: 1em;
+    height: inherit;
+}
+footer ul li{
+    display: inline-block;
+    padding: .5em 2em;
+}
+footer ul li a{
+    color: antiquewhite;
+    size: .5em;
+}
+
+footer ul li:hover{
+    background-color: gray;
+    border-radius: 1em;
+    transition: .6s;
+}
+
+#social_media li:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+}
+ footer p{
+     text-align: center;
+     size: .8em;
+     margin-top: 1em;
+ }
+ footer div{
+    text-align-last: center;
+    margin: .5em 0em;
+    color: antiquewhite;
+ }
