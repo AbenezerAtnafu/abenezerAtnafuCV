@@ -1,7 +1,6 @@
 
 #main{
     margin: 2em 5em;
-    float: right;
     padding: 2em;
 }
 
@@ -13,7 +12,6 @@
     width: 30%;
     height: 30%;
 }
-
 #main div{
     display: inline-block;
     margin: 0, 0.5em;

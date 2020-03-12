@@ -9,8 +9,8 @@
 body{
     background: linear-gradient(to top left, rgb(175, 171, 171), rgb(43, 40, 40))
 }
-/* nav bar */
 
+/* nav bar */
 nav{
     background-color: rgb(53, 50, 50);
     height: 60px;
@@ -54,6 +54,9 @@ nav ul li a:active {
 }
 
 /* body */
+#logo img{
+    filter: brightness(1.5) saturate(1) contrast(1.2);
+}
 #intro h3{
     font-weight: bold;
     font-size: 2em;
@@ -102,7 +105,6 @@ nav ul li a:active {
     color: wheat;
 }
 dt{
-    
     color: white;
     font-weight: bold;
     font-size: 1.2em;
@@ -116,7 +118,13 @@ dd{
 #top_skill{
     margin-left: 15em;
 }
-
+.info_container ul li{
+    list-style-type: circle;
+}
+#top_skill h3{
+    border-left: 5px dotted rgb(94, 94, 94);
+    border-bottom: 5px dotted rgb(94, 94, 94);
+}
 
 /* footer */
 footer{
