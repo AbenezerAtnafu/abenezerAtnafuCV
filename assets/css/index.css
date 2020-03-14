@@ -96,8 +96,8 @@ nav ul li a:active {
 }
 
 .title{
-    border-left: 5px dotted gray;
-    border-bottom: 5px dotted gray;
+    border-left: 5px dotted rgb(179, 179, 179);
+    border-bottom: 5px dotted rgb(179, 179, 179);
     margin-bottom: .5em;
     padding-left: .3em;
     text-transform: uppercase;
@@ -115,17 +115,12 @@ dd{
     color: rgb(214, 212, 212);
     padding-left: 3.5em;
 }
-#top_skill{
-    margin-left: 15em;
-}
 .info_container ul li{
     list-style-type: circle;
 }
-#top_skill h3{
-    border-left: 5px dotted rgb(94, 94, 94);
-    border-bottom: 5px dotted rgb(94, 94, 94);
+#top_skill{
+    margin-left: 15%;
 }
-
 /* footer */
 footer{
     clear: both;

@@ -22,6 +22,12 @@ h1{
 }
 .blog_container img{
     padding-left: 15em;
+    border-radius: 0 25%;
+    filter:  saturate(0);
+}
+.blog_container img:hover{
+    filter: none;
+    transform: scale(1.2);
 }
 .blog_container h2{
     color: wheat;
@@ -43,11 +49,5 @@ h1{
     list-style-type: symbols('#');
     padding: .2em;
 }
-.blog_container img{
-    border-radius: 0 25%;
-    filter:  saturate(0);
-}
-.blog_container img:hover{
-    filter: none;
-    transform: scale(1.2);
-}
+
+

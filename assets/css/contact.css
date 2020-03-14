@@ -1,0 +1,56 @@
+h2{
+    color: white;
+    text-align: center;
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+#body{
+    padding-top: 3em;
+}
+.contact_container, form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contact_container{
+    margin: 1em 0em;
+}
+
+.contact_container p{
+    width: 55%;
+    line-height: 22px;
+    color: white;
+    padding-top: 1em;
+}
+.contact_container img{
+    width: 40%;
+    height: 100%;
+    margin-top: -7em;
+    padding-left: .5em;
+}
+#family_pic{
+    margin-top: 10em;
+    text-align: center;
+}
+
+.labels{
+    margin: 1em 4em;
+}
+
+.input_fields input{
+    margin-top: 1em;
+}
+input[type='submit'], input[type='reset']{
+    color: aliceblue;
+    background-color: green;
+    border: none;
+    cursor: grab;
+    padding: .5em;
+    border-radius: 25%;
+    font-size: 20px;
+    margin-left: 3em;
+}
+input[type='reset']{
+    background-color: red;
+}
+
