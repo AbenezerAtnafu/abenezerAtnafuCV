@@ -1,0 +1,40 @@
+#intro> p{
+    margin: 2em;
+    padding: 1em 7em;
+    border-top: 2px solid black;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    color: wheat;
+}
+#intro ul{
+    text-align: center;
+}
+#intro ul li{
+    display: inline-block;
+    margin: .5em 1em;
+    max-width: 25%;
+    padding: 1em 1em;
+}
+#intro ul li a{
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+#intro ul li p{
+    margin-top: .5em;
+    text-transform: initial;
+    color: white;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+#intro ul li:hover {
+    background-color: rgb(73, 72, 72);
+    border-radius: 1em;
+    transition: .6s;
+}
