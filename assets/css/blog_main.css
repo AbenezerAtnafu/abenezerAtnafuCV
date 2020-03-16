@@ -20,8 +20,8 @@ h1{
 .blog_container div{
     margin: 1em;
 }
-.blog_container img{
-    padding-left: 15em;
+.blog_container a img{
+    float: right;
     border-radius: 0 25%;
     filter:  saturate(0);
 }

@@ -3,13 +3,23 @@
     padding-top: .5em;
     background: linear-gradient(to bottom top, red white);
 }
-.blog_container ul li a{
+.blog_container ul li a, a{
     color: aquamarine;
 }
 .blog_container img{
     filter: none;
     transform: scale(1.2);
     padding-top: 1em;
+    padding-left: 0em;
+    width: 40%;
+    height: 80%;
+    float: right;
+}
+#blog_1{
+    width: auto;
+    height: auto;
+    float: right;
+    padding-left: 10em;
 }
 .blog_container img:hover{
     transform: scale(1.2);
