@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abenezer Atnafu</title>
+    <link rel="shortcut icon" href="../assets/icons/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/blog_main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/blog_each.css">
+</head>
+<body>
+    
+   <!-- Header -->
+
+   <header>
+
+    <!-- Navigation -->
+
+        <nav>
+            <label id="name">
+                <a href="../index.html">Abenezer Atnafu</a>
+            </label>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../blog.html">Blogs</a></li>
+                <li><a href="../myWork.html">My Work</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+        <div class="blog_container">
+            <a href="./specific_change_in_css3.html"><div>
+                <h2>How does the browser interpret width?</h2>
+                <h3>We said 16px is default browser width so what does it mean when we say 200px?</h3> 
+                </div></a>
+                <ul>
+                    <li><a href="#css_selectors">CSS3 Selectors</a></li>
+                    <li><a href="#css_colors">CSS3 Colors</a></li>
+                    <li><a href="#round_corners">Rounded Corners</a></li>
+                    <li><a href="#2d_3d_transformation">2D and 3D transformation</a></li>
+                    <li><a href="#faster_dev">Faster Development and faster load times</a></li>
+                    <li><a href="#drop_shadows">Drop Shadows and Text Shadow</a></li>
+                    <li><a href="#gradients">Linear and Radial Gradients</a></li>
+                </ul>
+                <h3>Last updated on Mar 16, 2020 19 min</h3>
+            </div>
+            <img id="css3" src="../assets/icons/CSS3_logo.png" alt="css3 image"></a>
+        </div>
+
+        <div class="content">
+            <h2>How does the browser interpret width?</h2>
+            <h3>We said 16px is default browser width so what does it mean when we say 200px?</h3>
+            <p>
+                By default average browser window size = 1366 x 784. The width property in CSS specifies the width 
+                of the element's content area. The content area is the portion inside the padding border, and margin 
+                of an element(the box model).
+            </p><br>
+            <p>
+                By default the browser's size is 16 px which means if you did't overriden, the content area will inherit 
+                the browser's size as its size. (Done by browser) If we declare the width, then the browser's default size will 
+                be overridden and get the declared size on the browser screen.
+            </p><br>
+            <p>
+                <strong>The width calculation is : </strong>
+                the render's width is calculated using the container block's width, the renderer's style "width"
+                property, the margins and borders. The calculation is done by <strong>WebeKit</strong>  as the following:
+                <br> For example let the width be 200px.
+                <ul>
+                    <li>The container width is the maximum of the containers available width and 0. If it is not available 
+                        it will get its default size. (if it is text, its font will get the browser default size). In this case 
+                        the content width is <code class="code"> clientWidth() - paddingleft() - paddingright()</code>.
+                    </li>
+                    <li>The elements width is the width style attribute. It will be calculated as an absloute or it will be calculated 
+                        the exact value of the container width.
+                    </li>
+                    <li>The horizontal borders and paddings are now added.</li>
+                    <li>If you use scalable <code class="code">rem</code>, <code class="code">em</code> and <code class="code">%</code>
+                        by using our browser and DOM settings. If you set the width of the body to 200px, then 1 <code class="code">rem</code> = 16px
+                        (if the default browser size is 16px), 1 <code class="code">em</code> = 200px and 100 <code class="code">%</code> = 200px.
+                    </li>
+                </ul>
+                <br> To read more about scalable sizes see my last blog <a href="./the_matter_of_using_relative_size.html">The matter of using relative size.</a>
+                <br><a href="">To Read more on how this works ...</a>
+            </p>
+        </p>
+        </div>
+
+        <div id="profile">
+            <a href="../index.html"><img src="../assets/images/abene.jpg" alt="abene" >
+            </a>
+            <p><strong>Abenezer Atnafu</strong></p>
+            <p>Software Engineer and Programmer</p> 
+            <p>Addis Ababa Institute of Technology</p> 
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <div id="lower_nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./blog.html">Blogs</a></li>
+                <li><a href="./myWork.html">My Work</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- social media -->
+        <div id="social_media">
+            <ul>
+                <li><a href="https://www.t.me/AbenezerAtnafu"><img src="../assets/icons/telegram.svg" alt="telegram"></a></li>
+                <li><a href="https://www.instagram.com/abenealayu/?hl=en"><img src="../assets/icons/instagram.svg" alt="instagram"></a></li>
+                <li><a href="https://github.com/AbenezerAtnafu/"><img src="../assets/icons/github.svg" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/abenezer-atnafu-4a1514193/"><img src="../assets/icons/linkedin.svg" alt="linkedin"></a></li>
+            </ul>             
+        </div> 
+        <div>
+            <p>
+                <h4>Psalms 91</h4>
+                <sup>1.</sup> He that dwelleth in the secret place of the most High shall abide under the shadow of the 
+                Almighty. <br> <sup>2.</sup> I will say of the LORD, <em>He is my refgue and my fortress: 
+                </em>my God; in him will I trust.
+            </p>
+        </div> 
+        <hr>
+        <p>Addis Ababa, Ethiopia 🇪🇹</p>
+        <p>Developed by Abenezer A. &copy;</p>
+    </footer>
+
+
+
+</body>
+</html>
