@@ -279,14 +279,14 @@ li{
 }
 #bahrain .red{
     width: 65%;
-    height: 240px;
+    height: 245px;
 }
 #bahrain .flex_box .white #arrows{
     margin-top: 5px;
     padding: auto auto;
-    width: 50px;
-    height: 50px;
-    transform: translate(82px, 0px) rotate(45deg);
+    width: 48px;
+    height: 48px;
+    transform: translate(86px, 0px) rotate(45deg);
 
 }
 

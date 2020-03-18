@@ -7,7 +7,7 @@
 
 }
 body{
-    background: linear-gradient(to top left, rgb(175, 171, 171), rgb(43, 40, 40))
+    background: linear-gradient(to top left, rgb(146, 144, 144), rgb(43, 40, 40))
 }
 
 /* nav bar */
@@ -141,7 +141,7 @@ footer ul li a{
 }
 
 footer ul li:hover{
-    background-color: gray;
+    background-color: rgb(65, 64, 64);
     border-radius: 1em;
     transition: .6s;
 }
@@ -154,8 +154,8 @@ footer ul li:hover{
      text-align: center;
      size: .8em;
      margin-top: 1em;
- }
- footer div{
+}
+footer div{
     text-align-last: center;
     margin: .5em 0em;
     color: antiquewhite;

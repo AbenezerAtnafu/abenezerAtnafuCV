@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Relative Size</title>
+    <link rel="shortcut icon" href="../assets/icons/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/blog_main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/blog_each.css">
+
+</head>
+<body>
+    
+       <!-- Header -->
+
+   <header>
+
+    <!-- Navigation -->
+
+        <nav>
+            <label id="name">
+                <a href="../index.html">Abenezer Atnafu</a>
+            </label>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
+                <li><a href="../blog.html">Blogs</a></li>
+                <li><a href="../myWork.html">My Work</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="body">
+        <div class="blog_container">
+            <div>
+            <a href="./the_matter_of_using_relative_size.html">
+                <h2>Relative size which means using &quot; <code class="code">%</code>, <code class="code">em</code> and 
+                    <code class="code">rem</code> &quot;</h2></a>
+                <h3>Does it really matter on our styling to make the element responsive?</h3> 
+                <ul>
+                    <li><a href="#their_crucial_difference"> Their crucial difference</a></li>
+                    <li><a href="#when_to_use_them">When to use them?</a> </li>
+                    <li><a href="#how_they_work"> How they work?</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                </ul>
+                <h3>Last updated on Mar 16, 2020 25 min</h3>
+            </div>
+            <div>
+                <img src="../assets/images/emrem.jpeg" alt="css3_logo" id="em_logo">
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Does it really matter on our styling to make the element responsive?</h2>
+            <p>
+                We all want to do many activities on the same window by giving them half of the screen or quarter of the screen. Then I am quite sure from one of those
+                windows there will be one browser. Then you have may figure some flexible units of measurement, when some elements stack as they were in the initial stage.
+            </p><br>
+            <p>
+                These flexible and scalable units measurement is translated by our browser into the pixel values, that's why we are seeing different sizes with the ratio to 
+                our windows size. <code class="code">%</code>, <code class="code">em</code> and 
+                <code class="code">rem</code> are the tools that are used to make flexible, scalabel units. They give the right to the browser in order to control the pixel values.
+                They give us the ability to scale elments up and down. 
+                Understanding these key points are the basic thing to use each unit: 
+            </p>
+
+            <p id="their_crucial_difference">
+                <h2>What is the crucial difference between them?</h2>
+                <p>
+                    The difference between <code class="code">%</code>, <code class="code">em</code> and 
+                    <code class="code">rem</code> units is used to tell the browser how to determine the pixel
+                     value to translate into. 
+                </p>
+                <p>
+                    Translation of <code class="code">rem</code> units to pixel is determined by the font size of the html element. 
+                    Which means it is influenced by the browser font size setting.
+                </p>
+                <p>
+                    Translation of <code class="code">em</code> units to pixel values is determined by the size of the element they are used in. The size 
+                    is influenced by the inheritance from the parent element.
+                </p>
+                <p>
+                    The usage of the <code class="code">%</code> is the same with <code class="code">em</code>.
+                </p>
+            </p><br>
+            <p id="when_to_use_them">
+                <h2>When to use them?</h2>
+                <h3>When to use <code class="code">rem</code>?</h3>
+                <p>
+                    Since the <code class="code">rem</code> units offer us a way to have user font size settings, the primary purpose of using <code class="code">rem</code>
+                     units should be to ensure that whatever default font size a user has their browser set to, the layout adjust to accommodate the size of 
+                     text within it. This will help for persons that has a problem of strained eyesight. 
+                    <strong>Don't forget that your site best arrangement will be affected by the user's browser setting.</strong>
+                </p><br>
+                <h4>When to use <code class="code">em</code>?</h4>
+                <p>
+                    The key concept of <code class="code">em</code> is that they allow sizing values to be deternmined by the font size of another element (it's parent element).
+                    For this reason, the <code class="code">em</code> units goes with <strong>padding, margin and line-height</strong>. The way how we use these 3 concepts on the container 
+                    will affect the font size if we are using <code class="code">em</code>. Then be sure with the proprtional scales.
+    
+                </p>
+    
+            </p>
+            <p id="how_they_work">
+                <h2>How the browser translate the <code class="card">rem</code> units to pixel values?</h2>
+                <p>
+                    When using <code class="card">rem</code> units, the pixel size they translate to depends on the font size of the 
+                    root element of the page, i.e. the html element (with 16px value). That root font size is multiplied by whatever 
+                    number you’re using with your <code class="card">rem</code> unit.
+                </p><br>
+                <h3>How the browser translate the <code class="code">em</code> units to pixel values?</h3>
+                <p>
+                    When using <code class="card">em</code> units, the pixel size they translate to depends on the font size of the 
+                    container element. That container element font size is multiplied by whatever 
+                    number you’re using with your <code class="card">em</code> unit.
+                </p><br>
+                <p>
+                    Parent element font sizes can effect em values, but when that happens it’s solely because of <strong>inheritance</strong>. 
+                    When we are working with <code class="card">em</code> units, we start to get tricky because of the inheritance rule.
+                    The inheritance rule specifies that, every element automatically inherits the font size of its parent. This can only 
+                    overridden by explicitly setting a font-size with a unit. 
+                    <br>
+                    The font size of the element on which <code class="card">em</code> units are used determines their size. But that 
+                    element may have inherited a font size from its parent, which inherited a font size from its parent, and so on. 
+                    As such it’s possible for any <code class="card">em</code> value to be effected by the font size of any of its parents.
+                </p><br>
+                <p>
+                    As inheritance, the <strong>browser setting also has an effect on element's font size.</strong> <br> By default browsers 
+                    usually have a font size of 16px, but this can be changed to anywhere from 9px to 72px by the user. 
+                </p><br>
+                <p>
+                    <strong>The root html element inherits its font size from the settings in the browser, unless overridden with an 
+                        explicitly set fixed value. This is where the root element get its default font size.</strong>
+               
+                </p><br>
+            </p>
+    
+            <p id="summary">
+                <h3>Summary</h3>
+                <p>At last, hence if you want a resposive site use <code class="code">rem</code> and <code class="code">em</code> on the 
+                    appropraite part. I recommend you not to use <code class="code">em</code> units in headings.
+                </p>
+                <p>
+                    In addition to this, <strong><code class="code">rem</code> and <code class="code">em</code></strong> for multi column layout widths
+                    , instead use <code class="code">%</code> for the fluidly fit. (Even if, the columns can still generally incorporate 
+                    in its >max-width setting.)
+                </p>
+                <p>
+                    Also don't use <strong><code class="code">rem</code> and <code class="code">em</code></strong> if scaling would unavoidably 
+                    cause a layout element to break.
+                </p>
+                <p>
+                    The most important thing is that use <code class="code">rem</code> units on media queries.
+                </p>
+                <p>
+                    <a href="https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984">Read More about the three scalable sizes.</a>
+                </p>
+            </p>
+        </p>
+        </div>
+    </div>
+       
+    <footer>
+
+        <div id="lower_nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./blog.html">Blogs</a></li>
+                <li><a href="./myWork.html">My Work</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- social media -->
+        <div id="social_media">
+            <ul>
+                <li><a href="https://www.t.me/AbenezerAtnafu""><img src="./assets/icons/telegram.svg" alt="telegram"></a></li>
+                <li><a href="https://www.instagram.com/abenealayu/?hl=en"><img src="./assets/icons/instagram.svg" alt="instagram"></a></li>
+                <li><a href="https://github.com/AbenezerAtnafu/"><img src="./assets/icons/github.svg" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/abenezer-atnafu-4a1514193/"><img src="./assets/icons/linkedin.svg" alt="linkedin"></a></li>
+            </ul>             
+        </div> 
+        <div>
+            <p>
+                <h4>Psalms 91</h4>
+                <sup>1.</sup> He that dwelleth in the secret place of the most High shall abide under the shadow of the 
+                Almighty. <br> <sup>2.</sup> I will say of the LORD, <em>He is my refgue and my fortress: 
+                </em>my God; in him will I trust.
+            </p>
+        </div> 
+        <hr>
+        <p>Addis Ababa, Ethiopia 🇪🇹</p>
+        <p>Developed by Abenezer A. &copy;</p>
+    </footer>
+    
+</body>
+</html>

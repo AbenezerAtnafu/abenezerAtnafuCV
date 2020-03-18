@@ -1,7 +1,6 @@
 .blog_container{
     padding-bottom: 0;
     padding-top: .5em;
-    background: linear-gradient(to bottom top, red white);
 }
 .blog_container ul li a, a{
     color: aquamarine;
@@ -10,10 +9,6 @@
     filter: none;
     transform: scale(1.2);
     padding-top: 1em;
-    max-width: 100%;
-    max-height: 100%;
-    float: right;
-    padding-left: 15em;
 }
 #css3{
     width: 20%;
@@ -33,7 +28,7 @@
 .content p{
     padding: 0em 4em;
     color: white;
-    line-height: 22px;
+    line-height: 25px;
 }
 .content ul{
     padding-left: 4em;
