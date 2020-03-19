@@ -54,3 +54,8 @@ input[type='reset']{
     background-color: red;
 }
 
+#map{
+    width: 30%;
+    margin-left: -2em;
+}
+
